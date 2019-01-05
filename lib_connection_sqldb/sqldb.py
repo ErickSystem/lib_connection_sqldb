@@ -3,7 +3,7 @@
 import logging
 from . import config
 from .exceptions import QueryEmptyResult
-from fx_lib_common import log
+from lib_connection_sqldb import log
 from sqlalchemy import text
 from sqlalchemy.event import listen, remove
 from sqlalchemy.engine import create_engine, url
