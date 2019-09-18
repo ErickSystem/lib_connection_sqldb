@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='lib_connection_sqldb',
-    version='1.0.1',
+    version='1.0.2',
     description='relational database libraries',
     url='',
     author='Erick Henrique',

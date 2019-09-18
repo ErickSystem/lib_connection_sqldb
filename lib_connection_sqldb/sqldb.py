@@ -20,6 +20,7 @@ class MySQL(object):
 
         self.conn = conn
         self.logger = log.getLogger()
+        _url = str(url.URL(**conn)) + "?charset=utf8"
         self.engine = create_engine(url.URL(**conn))
         self.query = None
         if self.logger.isEnabledFor(logging.DEBUG):
